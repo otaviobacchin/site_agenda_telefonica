@@ -41,6 +41,7 @@ form {
     margin-bottom: 56px;
 }
 
+
 form input{
     color: #272727;
     font-size: 18px;
@@ -62,12 +63,20 @@ form button {
     padding: 8px;
 }
 
+thead {
+    position: sticky;
+    top: 0;
+}
+
 table {
     width: 100%;
+    align-items: center;
 }
 
 table th {
+    width: 40%;
     font-family: 'Lato', sans-serif;
+    text-align: center;
     border-bottom: 2px solid #272727;
     padding: 16px;
     font-size: 18px;
