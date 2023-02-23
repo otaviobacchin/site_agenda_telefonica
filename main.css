@@ -1,0 +1,94 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-color: #5a5a89; /*cor de fundo do site*/
+    padding-top: 100px; /* distancia o corpo da margem de cima do site*/
+}
+
+header {
+    display: flex; /*itens um do lado do outro*/
+    align-items: center; /*itens centralizados*/
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px; /*ajusta o tamanho da imagem da beca*/
+    margin-right: 16px; /*adiciona uma margem a direita da imagem*/
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto; /*centraliza horizontalmente*/
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 56px;
+}
+
+form input{
+    color: #272727;
+    font-size: 18px;
+    background-color: aliceblue;
+    border: 3px solid #272727;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-right: 12px;
+}
+
+form button {
+    background-color: #000000;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px solid #272727;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+table td {
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid #272727;
+}
+
+tbody img {
+    height: 36px;
+}
+
+.deletar {
+    display: inline-block;
+    background: none;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
